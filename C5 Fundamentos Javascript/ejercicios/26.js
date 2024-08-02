@@ -4,6 +4,8 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  // Le pedimos que retorne una cadena antes de nuestro string (nombre) y le agregamos un signo de exclamacion al final.
+  return "Hola " + nombre + "!";
 }
 
 module.exports = obtenerSaludo;

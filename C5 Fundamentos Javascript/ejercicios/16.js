@@ -6,6 +6,14 @@ function esImpar(num) {
   // 15 ---> true
   // 14 ---> false
   // Tu código:
+  // Verificamos que sea un numero.
+  if (typeof num === 'number' && !Number.isNaN(num)){
+    // Usamos el operador de modulo(%). Si el residuo de dividir un número por 2 no es 0, 
+    //entonces el número es impar. retorna "true", de lo contrario retorna "false".
+    return num % 2 !== 0;
+  }
+  // Retorna "false" si no es un numero.
+  return false;
 }
 
 module.exports = esImpar;

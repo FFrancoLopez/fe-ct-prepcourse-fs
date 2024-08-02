@@ -6,6 +6,8 @@ function sonIguales(x, y) {
   // 5, 5 ---> true 
   // 5, 8 ---> false 
   // Tu código:
+  // Si "x" es igual estrictamente(===) a "y" retorna "true", de lo contrario, retornarà "false".
+  return x === y;
 }
 
 module.exports = sonIguales;

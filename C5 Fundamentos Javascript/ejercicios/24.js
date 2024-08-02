@@ -4,6 +4,8 @@ function agregarSimboloExclamacion(str) {
   // Por ejemplo: 
   // "hello world" ---> "hello world!"
   // Tu código:
+  // Le pedimos que nos retorne un signo de exclamacion al final de nuestro "argumento".
+  return str + "!";
 }
 
 module.exports = agregarSimboloExclamacion;

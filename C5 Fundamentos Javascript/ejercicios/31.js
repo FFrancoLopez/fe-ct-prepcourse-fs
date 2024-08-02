@@ -7,6 +7,8 @@ function elevarAlCuadrado(num) {
   // 6 ---> 36
   // 0 ---> 0
   // Tu código:
+  // Utilizando el objeto global "Math.pow()" para elevar "num" al cuadrado. 1er numero: base, 2do numero: potencia.
+  return Math.pow(num, 2);
 }
 
 module.exports = elevarAlCuadrado;

@@ -7,6 +7,10 @@ function deEuroAdolar(euro) {
   // 1 ---> 1.20
   // 0 ---> 0
   // Tu código:
+  // Definimos la tasa de cambio dentro de la funcion como una constante ("tasaDeCambio").
+  // Luego hacemmos el cambio (multiplicamos).
+  const tasaDeCambio = 1.2;
+  return euro * tasaDeCambio;
 }
 
 module.exports = deEuroAdolar;

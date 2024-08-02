@@ -7,6 +7,8 @@ function elevarAlCubo(num) {
   // 3 ---> 27
   // 0 ---> 0
   // Tu código:
+  // Utilizando el objeto global "Math.pow()" para elevar "num" al cubo. 1er numero: base, 2do numero: potencia.
+  return Math.pow(num, 3);
 }
 
 module.exports = elevarAlCubo;

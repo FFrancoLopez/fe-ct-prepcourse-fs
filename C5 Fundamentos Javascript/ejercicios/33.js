@@ -7,6 +7,8 @@ function elevar(num, exponent) {
   // 2, 2 ---> 4
   // 0, 5 ---> 0
   // Tu código:
+  // Utilizando el objeto global "Math.pow()", elevamos "num" con el "exponent"."num": base, "exponent": potencia.
+  return Math.pow(num, exponent);
 }
 
 module.exports = elevar;

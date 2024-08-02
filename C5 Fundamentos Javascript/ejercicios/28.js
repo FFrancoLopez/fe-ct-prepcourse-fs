@@ -5,6 +5,8 @@ function retornarPerimetro(lado) {
    // 2 ---> 8
    // 0 ---> 0
    // Tu código:
+   // Multiplicamos el argumento "lado" por 4 para obtener el perimetro de nuestro cuadrado.
+   return lado * 4;
 }
 
 module.exports = retornarPerimetro;

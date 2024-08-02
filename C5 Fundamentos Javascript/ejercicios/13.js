@@ -6,6 +6,13 @@ function menosQueNoventa(num) {
   // 50 ---> true
   // 91 ---> false
   // Tu código:
-}
+  // Verificamos si "num" es un "number". Además, usamos "!Number.isNaN"
+  // para asegurarnos de que el valor no sea "NaN" (que también tiene el tipo "number" pero no es un número válido).
+  if (typeof num === 'number' && !Number.isNaN(num)){
+
+    //Si "num" es Menor o Igual a "89.999". Retornarà "true", de lo contrario, retorna "false".
+    return num <= 89.999;
+  }
+  }
 
 module.exports = menosQueNoventa;

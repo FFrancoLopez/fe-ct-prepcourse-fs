@@ -5,6 +5,8 @@ function obtenerAreaRectangulo(alto, ancho) {
   // 2, 2 ---> 4
   // 0, 2 ---> 2
   // Tu código:
+  // Multiplicamos los dos argumentos y nos dara el area del rectangulo.
+  return alto * ancho;
 }
 
 module.exports = obtenerAreaRectangulo;
