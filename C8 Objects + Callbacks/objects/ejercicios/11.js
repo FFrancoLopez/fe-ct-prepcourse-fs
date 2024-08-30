@@ -3,6 +3,10 @@ function invocarMetodo(objeto, metodo) {
   // Esta propiedad contiene una función en su interior. Debes invocarla/ejecutarla.
   // NOTA: no necesitas retornar nada.
   // Tu código:
+  // Usamos la notación de corchetes para acceder al método por el nombre de la propiedad (metodo).
+  // Luego invocamos la función utilizando ().
+  objeto[metodo]();
+  
 }
 
 module.exports = invocarMetodo;
